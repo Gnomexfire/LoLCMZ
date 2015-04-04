@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLCMZ Release A", "LoLCMZ Release A\LoLCMZ Release A.csproj", "{F6CFA8C5-B18C-4670-BA6D-B4D694673309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLCMZ_Base", "LoLCMZ_Base\LoLCMZ_Base.csproj", "{12B03886-8D20-4F20-928A-FA5E404BA0BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6CFA8C5-B18C-4670-BA6D-B4D694673309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6CFA8C5-B18C-4670-BA6D-B4D694673309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6CFA8C5-B18C-4670-BA6D-B4D694673309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B03886-8D20-4F20-928A-FA5E404BA0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B03886-8D20-4F20-928A-FA5E404BA0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B03886-8D20-4F20-928A-FA5E404BA0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B03886-8D20-4F20-928A-FA5E404BA0BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
