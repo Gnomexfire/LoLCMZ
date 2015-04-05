@@ -5,7 +5,55 @@
         TitleCaps="False" BorderBrush="Black" BorderThickness="1"                      
         ResizeMode="CanMinimize"            
         Title="LoLCMZ"
-        Height="205.332" Width="455.667" Loaded="MetroWindow_Loaded" WindowStartupLocation="CenterScreen">
+        Height="205.332" Width="455.667" Loaded="MetroWindow_Loaded" WindowStartupLocation="CenterScreen" >
+
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+
+            <Button x:Name="CMD_UPDATE" Click="CMD_UPDATE_Click" >
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                            <Rectangle.OpacityMask>
+                                <VisualBrush Stretch="Fill"
+                         Visual="{StaticResource appbar_skydrive_download}" />
+                            </Rectangle.OpacityMask>
+                        </Rectangle>
+                        <TextBlock Margin="4 0 0 0"
+                                   VerticalAlignment="Center"
+                                   Text="Update" />
+                    </StackPanel>
+                </Button>
+            <Button x:Name="CMD_ABOUT" Click="CMD_ABOUT_Click" >
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"
+                         Visual="{StaticResource appbar_ie}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0"
+                                   VerticalAlignment="Center"
+                                   Text="About" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="CMD_SUPPORT" Click="CMD_SUPPORT_Click"  >
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"
+                         Visual="{StaticResource appbar_eye}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0"
+                                   VerticalAlignment="Center"
+                                   Text="Support" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
     <Grid Margin="0,0,2,-27" Height="205" VerticalAlignment="Top">
         <CheckBox x:Name="CHK_TESTE" Content="Activate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,141,0,0" Checked="CHK_TESTE_Checked" Height="26" RenderTransformOrigin="0.5,0.5" Width="166" Unchecked="CHK_TESTE_Unchecked"/>
         <Canvas Height="105" Margin="10,10,10,0" VerticalAlignment="Top">
@@ -20,6 +68,7 @@
         <Label Content="[NUM PAD -]-Decrease Zoom" FontFamily="Courier New" Margin="10,120,249,58"/>
         <Label Content="Compiled :" FontFamily="Courier New" Margin="293,146,75,32"/>
         <Label x:Name="LBL_DLL_COMPILED" Content="0.0.0" FontFamily="Courier New" Margin="371,146,10,32"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="177,150,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
 
 
