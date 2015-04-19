@@ -33,9 +33,24 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1422931544_175241.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LoLBaseReleaseBExternal">
+      <HintPath>..\LoLBaseReleaseBExternal\bin\Debug\LoLBaseReleaseBExternal.dll</HintPath>
+    </Reference>
+    <Reference Include="MouseKeyboardActivityMonitor, Version=4.0.5586.32151, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MouseKeyboardActivityMonitor.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -61,6 +76,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Class\COMPLEX.cs" />
+    <Compile Include="Class\HashEnconde.cs" />
+    <Compile Include="Class\KDMemory.cs" />
+    <Compile Include="Class\LoL Utilidade.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -83,6 +102,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -92,6 +112,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGEM\appbar.eye.hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGEM\appbar.eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGEM\appbar.futurama.bender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGEM\appbar.globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGEM\appbar.globe.wire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1422931544_175241.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

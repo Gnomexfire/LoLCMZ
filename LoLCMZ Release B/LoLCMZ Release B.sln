@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLCMZ Release B", "LoLCMZ Release B\LoLCMZ Release B.csproj", "{801DD1AF-DE97-44B7-9089-8BB307722DEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLBaseReleaseBExternal", "LoLBaseReleaseBExternal\LoLBaseReleaseBExternal.csproj", "{7EB2B7A9-1C23-465C-86E3-E5901C7E8ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{801DD1AF-DE97-44B7-9089-8BB307722DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801DD1AF-DE97-44B7-9089-8BB307722DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801DD1AF-DE97-44B7-9089-8BB307722DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB2B7A9-1C23-465C-86E3-E5901C7E8ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB2B7A9-1C23-465C-86E3-E5901C7E8ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB2B7A9-1C23-465C-86E3-E5901C7E8ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB2B7A9-1C23-465C-86E3-E5901C7E8ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
